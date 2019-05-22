@@ -2,7 +2,7 @@
 title: blog
 email: gazhenko.jemmy@gatech.edu
 description: > # this means to ignore newlines until "baseurl:"
-    by jemmy gazhenko. a place where I keep my thought about tech, programming, devops, and other random stuff.
+    by jemmy gazhenko. a place where I keep my thoughts about tech, programming, devops, and other random stuff.
 baseurl:  # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
 twitter_username: jgazhenko
