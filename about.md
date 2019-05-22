@@ -7,22 +7,22 @@ permalink: /about/
 <img class="col one right" src="/img/prof_pic.png">
 
 #### I like
-&nbsp;&nbsp;>coding<br/>
-&nbsp;&nbsp;>helping teams code better and faster<br/>
-&nbsp;&nbsp;>empathy<br/>
-&nbsp;&nbsp;>microservices<br/>
-&nbsp;&nbsp;>kubernetes<br/>
-&nbsp;&nbsp;>our benevolent cloud overlords<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>coding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>helping teams code better and faster<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>empathy<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>microservices<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>kubernetes<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>our benevolent cloud overlords<br/>
 
 #### I dislike
-&nbsp;&nbsp;>ego<br/>
-&nbsp;&nbsp;>distrust<br/>
-&nbsp;&nbsp;>politics<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>ego<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>deceitfulness<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>politics<br/>
 
 #### I love
-&nbsp;&nbsp;>my team<br/>
-&nbsp;&nbsp;>my family<br/>
-&nbsp;&nbsp;>my God <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>my team<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>my family<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;>my God <br/>
 
 
 
