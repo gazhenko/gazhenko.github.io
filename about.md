@@ -34,6 +34,7 @@ permalink: /about/
 	<a href="https://github.com/gazhenko" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/gazhenko" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="https://twitter.com/jgazhenko" target="_blank"><i class="fa fa-twitter-square"></i></a>
+  <a href="{{ site.url }}/feed.xml" target="_blank"><i class="fa fa-rss-square"></i></a>
 </span>
 
 <div class="col three caption">

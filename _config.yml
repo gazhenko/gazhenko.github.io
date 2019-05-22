@@ -4,9 +4,14 @@ email: gazhenko.jemmy@gatech.edu
 description: > # this means to ignore newlines until "baseurl:"
     by jemmy gazhenko. a place where I keep my thoughts about tech, programming, devops, and other random stuff.
 baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
+url: https://gazhenko.github.io # the base hostname & protocol for your site
 twitter_username: jgazhenko
 github_username:  gazhenko
+
+# RSS stuff
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
 
 # Build settings
 markdown: kramdown
