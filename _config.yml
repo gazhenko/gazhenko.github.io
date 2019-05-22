@@ -1,16 +1,30 @@
-title:
-email: gazhenko.jemmy@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Site settings
+title: blog
+email: gazhenko.jemmy@gatech.edu
+description: > # this means to ignore newlines until "baseurl:"
+    by jemmy gazhenko. a place where I keep my thought about tech, programming, devops, and other random stuff.
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
 twitter_username: jgazhenko
 github_username:  gazhenko
 
 # Build settings
 markdown: kramdown
-theme: minima
+
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  woodworking:
+    output: true
+    permalink: /woodworking/:path/
+  life:
+    output: true
+    permalink: /life/:path/
+
 plugins:
-  - jekyll-feed
+  - jekyll-paginate

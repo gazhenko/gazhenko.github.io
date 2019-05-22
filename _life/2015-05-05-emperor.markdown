@@ -1,0 +1,13 @@
+---
+layout: post
+title: The Emperor of Ice Cream
+date: 2015-07-06 07:59:00
+---
+
+This is a test description about my post.
+
+### Section title
+
+This is a section of text. It's simply the best.
+
+<strong>--JG</strong>
