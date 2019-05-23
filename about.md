@@ -30,7 +30,7 @@ permalink: /about/
 <hr/>
 <br/>
 <span class="contacticon center">
-	<a href="mailto:gazhenko.jemmy@gmail.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="mailto:jemmy@gazhenko.dev"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com/gazhenko" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/gazhenko" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="https://twitter.com/jgazhenko" target="_blank"><i class="fa fa-twitter-square"></i></a>
