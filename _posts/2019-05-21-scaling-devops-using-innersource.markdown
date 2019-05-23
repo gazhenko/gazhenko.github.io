@@ -6,18 +6,18 @@ description: How do you scale Devops best practices across multiple product team
 ---
 
 
-Let's say you're part of a small team of go-get-em engineers, eager to develop amazing software and using the latest of software trends and technologies. You've got your SDLC at it's golden state, with automated testing, containers everywhere and with Kubernetes to manage it all. Your team is the epitome of agile. You ship software consistently and receive immediate success. Because of this, your team begins to grow. You begin splitting and forming more teams, while adding only the best talent to undergo widening of the applications' scope and service offerings.
+Let's say you're part of a small team of go-get-em engineers, eager to develop amazing software and using the latest of software trends and technologies. You've got your SDLC at it's golden state, with automated testing, containers everywhere and with Kubernetes to manage it all. Your team is the epitome of agile. You ship software consistently and receive immediate success. Because of this, your team begins to grow. You begin splitting and forming more teams, while adding only the best talent to the team and widening of the applications' scope and service offerings.
 
-You've added more and more features under your project. Eventually, the teams decide we need microservices architecture to continue to grow quickly. Apps begin splitting and teams work on their own automation and CI/CD pipeline processes. 6 months down the line, multiple teams are handling deployments and testing in completely different ways, making it an operational nightmare and every other deployment needs to be rolled back due to misconfiguration issues and support overhead is really killing the teams. Team members inevitably move onto different things and leave spaghetti code for others to support (_good luck_) and the number of new released features seem to be fewer and farther between compared to when the team was smaller.
+You've added more and more features under your project. Eventually, the teams decide they need microservices architecture to continue to grow quickly. Apps begin splitting and teams work on their own automation and CI/CD pipeline processes. 6 months down the line, multiple teams are handling deployments and testing in completely different ways, making it an operational nightmare and every other deployment needs to be rolled back due to misconfiguration issues and support overhead is really killing the teams. Team members inevitably move onto different things and leave spaghetti code for others to support (_good luck_) and the number of new released features seem to be fewer and farther between, even compared to when the team was smaller.
 
 <div class="img_row">
   <img class="col three" src="{{ site.baseurl }}/img/posts/2019-05-21-scaling-devops-using-innersource/this_is_fine.jpg" alt="" title="example image"/>
 </div>
 <br/>
 
-Okay so that was probably an exaggeration, but you get the idea. As development orgs grow, there are naturally some growing pains. To maintain nimble, agile practices, there needs to be consistency between how apps handle their SDLC, especially applications that have a similar technology stack.
+Okay so that was probably an exaggeration, but you get the idea. As development organizations grow, there are naturally some growing pains. To maintain nimble, agile practices, there needs to be consistency between how apps handle their SDLC, especially applications that have a similar technology stack.
 
-As your team begins to grow, you will see these signs as well. There will be natural break points where pieces of code become unmanageable or highly replicated between different applications. Over time, the same "problem" ends up getting solved 20+ ways, wasting dev and support cycles creating and maintaining these pieces. This is where I feel Inner source naturally comes into the picture for organizations following DevOps and Agile methodologies.
+As your team begins to grow, you will see these signs as well. There will be natural break points where pieces of code become unmanageable or highly replicated between different applications. Over time, the same "problem" ends up getting solved 20+ ways, wasting dev and support cycles creating and maintaining these pieces. This is where I feel inner source naturally comes into the picture for organizations following DevOps and Agile methodologies.
 
 <br/>
 #### What is inner source?
@@ -31,10 +31,10 @@ Inner source for your SDLC gives you:
 - supportability (less code to maintain)
 - flexibility for teams to add/edit features in shared inner source projects
 - visibility as opposed to a separate team supporting that project
-- the entry point into GitOps in your organization ([weave.works/technologies/gitops/](https://www.weave.works/technologies/gitops/))
+- the entry point into GitOps in your organization
 - a catalyst for collaboration between multiple teams
 
-At the heart of it, Inner source is the macro answer to the DRY principle ([codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)). But to really implement it, you'll need a culture change. Traditionally, when teams are solely responsible to develop and ship code, there can be pushback on inner sourcing because teams feel less _in control_ or don't want extra contraints to developing in a way that's more difficult or even not possible. Collaboration is key here. Just like a scrum team agree to completing some stories in a sprint, for inner source to work, incubate the thought of _"we must work together to succeed as an organization, not just a team."_
+At the heart of it, Inner source is the macro answer to the DRY principle ([codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)). But to really implement it, you'll need a culture change. Traditionally, when teams are solely responsible to develop and ship code, there can be pushback on inner sourcing because teams feel less _in control_ or don't want extra contraints to developing in a way that's more difficult or even not possible. Collaboration is key here. Just like a scrum team agrees to completing some stories in a sprint, for inner source to work, incubate the thought of _"we must work together to succeed as an organization, not just a team."_
 
 <br/>
 #### Don't jump just yet, plan the dive first
